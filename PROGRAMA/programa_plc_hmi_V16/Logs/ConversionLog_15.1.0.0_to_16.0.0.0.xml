@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='ConversionLogFile.xsl'?>
+<LogFile projectName="fio_V16" typeText="Tipo" messageText="Mensaje" timeText="Hora">
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/02/2025 2:59:27">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Actualización iniciada" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/02/2025 2:59:30" Debug="false">
+    <Text>Reorganization succeed!</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/02/2025 2:59:31">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair lost+found objects" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/02/2025 2:59:34" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/02/2025 2:59:35">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="CheckRepair missing bidirectional links" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/02/2025 2:59:35" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="06/02/2025 2:59:57">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Elemento del proyecto: '\PLC_1\ProgramBlocksFolder\Main' - Incoherencia de suma de verificación para 'General; Event'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="06/02/2025 2:59:57">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Elemento del proyecto: '\PLC_1\ProgramBlocksFolder\SystemBlocksFolder\ProgramResourcesFolder\LeftCounter' - Incoherencia de suma de verificación para 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Warning" Timestamp="06/02/2025 2:59:57">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Elemento del proyecto: '\PLC_1\ProgramBlocksFolder\SystemBlocksFolder\ProgramResourcesFolder\RightCounter' - Incoherencia de suma de verificación para 'General'." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/02/2025 3:00:01">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="Convirtiendo la información de referencias cruzadas." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/02/2025 3:00:01">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="La información de referencias cruzadas se ha generado correctamente." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/02/2025 3:00:01">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="La conversión de la información de referencias cruzadas se ha completado." />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/02/2025 3:00:01" Debug="false">
+    <Text>Package container 'Siemens.Simatic.Lang.S7PSW.V15.1.0.0.NonMandatory' was deleted</Text>
+  </Details>
+  <MessageCell ServiceId="Automation-ObjectFrame-Feedbacks" MessageId="ConversionInfoTabProjectSucceeded" MessageClass="Success" Timestamp="06/02/2025 3:00:02">
+    <Number ServiceNumber="80" MessageNumber="34" />
+    <Text FeedbackText="El proyecto 'C:\Users\e3cor\Downloads\(TIA V15)\Sorting\fio\System\PEData.plf' se ha actualizado correctamente y se ha guardado como proyecto 'C:\Users\e3cor\Downloads\(TIA V15)\Sorting\fio_V16\System\PEData.plf'." />
+    <Help HelpId="-1" HelpFile="" />
+  </MessageCell>
+  <MessageCell ServiceId="80" MessageId="30" MessageClass="Information" Timestamp="06/02/2025 3:00:02">
+    <Number ServiceNumber="80" MessageNumber="30" />
+    <Text FeedbackText="FinalCheckRemainingErrors" />
+    <Help HelpId="-1" />
+  </MessageCell>
+  <Details ServiceId="80" MessageId="30" Timestamp="06/02/2025 3:00:02" Debug="false">
+    <Text>No error is detected.</Text>
+  </Details>
+</LogFile>
